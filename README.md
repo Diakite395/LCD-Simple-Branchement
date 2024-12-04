@@ -22,7 +22,7 @@ Le LiquidCrystal 16x2 est un écran LCD capable d'afficher **16 caractères sur 
 
 | **Broche LCD** | **Description**             | **Connexion avec Arduino** |
 |-----------------|-----------------------------|-----------------------------|
-| 1 (VSS)         | Masse                      | GND                        |
+| 1 (GND)         | Masse                      | GND                        |
 | 2 (VDD)         | Alimentation               | 5V                         |
 | 3 (VO)          | Contraste                  | Curseur du potentiomètre   |
 | 4 (RS)          | Sélection commande/donnée  | Broche numérique 12        |
@@ -36,7 +36,7 @@ Le LiquidCrystal 16x2 est un écran LCD capable d'afficher **16 caractères sur 
 | 16 (LED-)       | Rétroéclairage (Cathode)   | GND                        |
 
 ### Potentiomètre
-- **Borne extérieure 1** : Connectée au **5V**.
+- **Borne extérieure 1** : Connectée au **5V** avec une resistance de **220 Ω**.
 - **Borne extérieure 2** : Connectée au **GND**.
 - **Borne centrale** : Connectée à la broche **VO** du LCD (pour régler le contraste).
 
