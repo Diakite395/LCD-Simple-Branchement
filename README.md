@@ -41,6 +41,13 @@ Le LiquidCrystal 16x2 est un écran LCD capable d'afficher **16 caractères sur 
 - **Borne centrale** : Connectée à la broche **VO** du LCD (pour régler le contraste).
 
 ---
+## Voici deux images, une avec rétroéclairage et l'autre sans rétroéclairage
+
+### Avec rétroéclairage
+![image avec rétroéclairage](https://github.com/Diakite395/LCD-Simple-Branchement/blob/main/r%C3%A9tro%C3%A9clairage.png)
+
+### Sans rétroéclairage
+![image avec rétroéclairage](https://github.com/Diakite395/LCD-Simple-Branchement/blob/main/sans%20r%C3%A9tro%C3%A9clairage.png)
 
 ## Exemple de Code Arduino
 
